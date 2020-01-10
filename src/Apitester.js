@@ -8,7 +8,7 @@ class Apitester extends Component {
 
   componentDidMount() {
     fetch("https://go-hello-world-aestandard.appspot.com/getjson")
-      //.then(response => response.json())
+      .then(response => response.json())
       .then(data => console.log(data));
   }
 
